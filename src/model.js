@@ -8,7 +8,7 @@ var moment = require('moment');
 var u = require('./util');
 
 var init = {
-  repo: 'zhangchiqing/milestones',
+  repo: 'vigour-io/milestones',
   duration: 7,
   day: 1,
   weeks: 1,
@@ -40,7 +40,7 @@ function toQuery(args) {
     return {
       repo: args.repo,
       token: args.token,
-      title: due.format('MMM DD, YYYY'),
+      title: 'week ' + (due.format('WW') - 1),
       due_on: due.toDate().toISOString(),
     };
   });
