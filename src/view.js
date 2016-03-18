@@ -11,14 +11,14 @@ function attr(attrs) {
 function renderWithContext(c) {
   return h('.container.p2', [
     h('h1', [
-      h('a', { href: 'https://github.com/zhangchiqing/milestones', target: '_blank' },
+      h('a', { href: 'https://github.com/vigour-io/milestones', target: '_blank' },
         'GitHub Milestone Generator'),
     ]),
     h('hr'),
 
     h('h3', 'Your repo name?'),
     h('input.js-repo.field.p1.col-10', {
-      placeholder: 'zhangchiqing/milestones',
+      placeholder: 'vigour-io/milestones',
       value: c.repo }),
 
     h('h3', 'How many days is your sprint?'),

@@ -25,12 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhangchiqing/milestones.git"
+    "url": "git+https://github.com/vigour-io/milestones.git"
   },
-  "author": "Leo Zhang (zhangchiqing)",
+  "author": "Leo Zhang (vigour-io)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zhangchiqing/milestones/issues"
+    "url": "https://github.com/vigour-io/milestones/issues"
   },
-  "homepage": "https://github.com/zhangchiqing/milestones#readme"
+  "homepage": "https://github.com/vigour-io/milestones#readme"
 }
